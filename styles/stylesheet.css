@@ -29,6 +29,9 @@ ul {
   width: 1.25rem;
   height: 1.25rem;
   border-radius: 50%;
+  border: 1px solid lightgrey;
+
+  
   margin: .35rem;
   display: inline-block;
 }
@@ -73,7 +76,6 @@ ul {
 
 .bg-ivory {
   background-color: ivory;
-  border: 1px solid lightgrey;
 }
 
 .bg-khaki {
@@ -94,7 +96,6 @@ ul {
 
 .bg-white {
   background-color: white;
-  border: 1px solid lightgrey;
 }
 
 a {
