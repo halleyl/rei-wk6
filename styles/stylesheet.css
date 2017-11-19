@@ -5,6 +5,8 @@ body {
   line-height: 120%;
 }
 
+/* Set modules to float around each other */
+
 section {
   background-color: white;
   display: inline-block;
@@ -20,6 +22,8 @@ img {
   width: 150px;
   max-width: 100%;
 }
+
+/* Set styles for product color swatches */
 
 ul {
   width: 100%;
@@ -104,6 +108,8 @@ a {
   color: #111111;
 }
 
+/* Set underlined hover state for product brand & name */
+
 section a:nth-child(3):hover {
   text-decoration: underline;
   
@@ -114,9 +120,13 @@ h6 {
   font-weight: 700;
 }
 
+/* Get product name to always take up 2 lines of space */
+
 h6 + p {
   height: 2.5rem;
 }
+
+/* Style prices */
 
 section a p:nth-child(1) {
   color: red;
@@ -130,18 +140,26 @@ section a p:nth-child(1) {
   line-height: 180%
 }
 
+/* Style for Font Awesome stars */
+
 i {
   color: #c15a22;
   color: hsl(21, 70%, 45%);
 }
 
+/* Get review count number after stars */
+
 section p:nth-child(6) {
   display: inline;
 }
 
+/* Set margins for text spacing */
+
 section p:last-of-type {
   margin: 0 0 1rem 0;
 }
+
+/* Styling for Compare button */
 
 button {
   background-color: white;
