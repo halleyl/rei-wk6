@@ -9,7 +9,6 @@ body {
 
 section {
   background-color: white;
-  display: inline-block;
   float: left;
   width: 12rem;
   padding: .5rem;
