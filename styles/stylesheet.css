@@ -8,6 +8,7 @@ body {
 section {
   background-color: white;
   display: inline-block;
+  float: left;
   width: 12rem;
   padding: .5rem;
   margin: .8rem;
@@ -143,6 +144,7 @@ section p:last-of-type {
 }
 
 button {
+  background-color: white;
   font-size: .85rem;
   color: #666666;
   display: block;
@@ -154,6 +156,5 @@ button {
 
 button:hover {
   background-color: #f0f0f0;
-  background-color: hsl(0, 0%, 94%)
-;
+  background-color: hsl(0, 0%, 94%);
 }
